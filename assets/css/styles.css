@@ -329,7 +329,8 @@ justify-content: center;
   background: linear-gradient(180deg,
               hsla(var(--hue), 24%, 40%, .3) 0%,
               hsla(var(--hue), 24%, 4%, 1) 95%);
-  display: grid;
+  display: block;
+  margin-top: 2rem;
   align-items: flex-end;
   padding: 1.5rem 1.25rem;
   transition: .3s;
@@ -337,6 +338,11 @@ justify-content: center;
   /* arrumar essa parte */
 }
 
+.projects__modal span{
+  display: block;
+  margin-top: 11rem;
+  color: red;
+}
 
 .projects__button{
   width: 2.25rem;
