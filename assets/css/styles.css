@@ -199,6 +199,7 @@ body.dark-theme{
   display: flex;
   justify-content: center;
   column-gap: .75rem;
+
 }
 
 .profile__social-link{
@@ -206,6 +207,7 @@ body.dark-theme{
   color: var(--title-color);
   transition: .3s;
 }
+
 
 .profile__social-link:hover{
   color: var(--first-color);
