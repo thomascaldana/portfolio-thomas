@@ -507,7 +507,7 @@ justify-content: center;
 
 }
 /* For medium devices */
-@media screen and (min-width: 320px) {
+@media screen {
   .projects__content{
     grid-template-columns: 332px ;
     justify-content: center;
@@ -518,7 +518,7 @@ justify-content: center;
     margin: 2rem auto;
   }
 
-  .projects__modal:active{
+  .projects__modal {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
